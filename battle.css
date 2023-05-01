@@ -1,0 +1,57 @@
+/* Battle Game Project 4/24/23 */
+
+/*font-family: 'Coda Caption', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive;*/
+
+body {
+	background-image: url("space.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Eater', cursive;
+	color: white;
+	font-size: 4;
+	text-align: center;
+	text-shadow: purple 2px 3px 3px, grey -2px -2px 1px;
+	margin-top: 8%;
+}
+
+div#button {
+	background-color: purple;
+	width: 12%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.5em;
+	color: white;
+	border-radius: 10px;
+	transition: all 1.5s;
+}
+
+div#button:hover {
+	background-color: white;
+	color: purple;
+	cursor: pointer;
+}
+
+h2#victory {
+	font-family: 'Coda Caption', sans-serif;
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+	text-shadow: purple 3px 3px 1px;
+}
+
+h2#defeat {
+	font-family: 'Freckle Face', cursive;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-shadow: purple 2px 2px 2px;
+}
